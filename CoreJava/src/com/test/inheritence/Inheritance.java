@@ -13,6 +13,8 @@ public class Inheritance {
 		System.out.println(Child.pi);
 		System.out.println(Child.pi);
 		
+		System.out.println("Simple change\n");
+		
 	}
 
 }
