@@ -6,7 +6,7 @@ public class TripleControlBlockOperator {
 		int num=(5>2)?1:0;
 		System.out.println(num);
 		num=(5>2)?((2<1)?1:0):0;
-		System.out.println(num);
+		System.out.println(num); 
 
 	}
 
