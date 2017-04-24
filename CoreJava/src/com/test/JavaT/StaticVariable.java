@@ -1,4 +1,4 @@
-package com.test.inheritence;
+package com.test.JavaT;
 
 public class StaticVariable {
 	static int a=10;

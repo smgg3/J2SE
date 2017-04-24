@@ -1,9 +1,9 @@
-package com.test.inheritence;
+package com.test.JavaT;
 
 public class Constructor {
 
 	int today;
-	Constructor(int a){
+	 Constructor(int a){
 		//System.out.println("Today's date is:"+a);
 		today=a;
 	}
