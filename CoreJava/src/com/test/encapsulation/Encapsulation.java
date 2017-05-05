@@ -10,7 +10,9 @@ public class Encapsulation {
 		return value;
 		
 	}
-	
+	public Encapsulation(){
+		System.out.println("From Parent class constructor");
+	}
 	public void reset(){
 		
 		value=0;
