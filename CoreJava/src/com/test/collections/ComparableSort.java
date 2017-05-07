@@ -25,7 +25,7 @@ public class ComparableSort {
 		Iterator<ObjectsSort> carIteratorAfterSort=l.iterator();
 		while(carIteratorAfterSort.hasNext()){
 			ObjectsSort c=carIteratorAfterSort.next();
-			System.out.println(c+" Registration number is "+c.getR_num()+"Price is :"+c.getPrice());
+			System.out.println(c+ "Price is :"+c.getPrice());
 		}
 
 	}

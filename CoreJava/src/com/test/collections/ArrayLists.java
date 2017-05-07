@@ -21,6 +21,7 @@ public class ArrayLists {
 		System.out.println(a);
 		a.set(0,"125");
 		System.out.println(a.contains("123"));
+	
 		
 	}
 
