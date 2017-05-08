@@ -12,13 +12,16 @@ public class Constructor extends Encapsulation{
 		
 	}
 	
-	public Constructor(int x){
+	private Constructor(int x){
 		
 		System.out.println("Form arg constructor"+x);
 		System.out.println("Form after this arg constructor before change"+this.x);
 		this.x=x;
 		System.out.println("Form after this arg constructor"+this.x);
 		
+	}
+	public static void hi(){
+		Constructor c=new Constructor(10);
 	}
 	public static void main(String[] args) {
 		

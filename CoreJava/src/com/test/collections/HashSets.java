@@ -9,7 +9,8 @@ public class HashSets {
 		t.add("sai");
 		t.add("nani");
 		t.add("chinna");
-		System.out.println(t);
+		t.add("chinna");
+		System.out.println(t.size());
 		
 		HashSet<Integer> t1=new HashSet<Integer>();
 		t1.add(4);

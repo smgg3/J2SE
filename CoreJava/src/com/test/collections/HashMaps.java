@@ -10,6 +10,7 @@ public class HashMaps {
 		t.put(2, "chinna");
 		t.put(4, "nani");
 		System.out.println(t);
+		
 		//t.remove(1);
 	
 	//All entries in HashMap

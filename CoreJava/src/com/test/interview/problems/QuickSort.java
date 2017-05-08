@@ -42,11 +42,6 @@ public class QuickSort {
 	        QuickSort obj = new QuickSort();
 	        obj.sort(arr,0,n-1);
 	        obj.printArray(arr);
-	        int a=10,b=20;
-	        a=a+b;
-	        b=a-b;
-	        a=a-b;
-	        System.out.println(a+" "+b);
 	}
 
 }

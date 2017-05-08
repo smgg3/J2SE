@@ -8,11 +8,12 @@ public class TreeSets {
 		t.add("sai");
 		t.add("nani");
 		t.add("chinna");
+		t.add("chinna");
 		System.out.println(t);
 		
 		TreeSet<Integer> t1=new TreeSet<Integer>();
 		t1.add(4);
-		t1.add(2);
+		t1.add(5);
 		t1.add(3);
 		t1.add(1);
 		System.out.println(t1);
