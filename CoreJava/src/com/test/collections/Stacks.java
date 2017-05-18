@@ -1,6 +1,6 @@
 package com.test.collections;
-
 import java.util.Stack;
+import org.junit.*;
 
 public class Stacks {
 

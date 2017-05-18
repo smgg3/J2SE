@@ -1,4 +1,4 @@
-package com.test.interview.problems;
+package com.test.codingtest;
 
 import java.util.ArrayList;
 
@@ -48,6 +48,7 @@ public class HeapSort {
 		HeapSort obj=new HeapSort();
 		obj.heapSort(arr);
 		obj.printArray(arr);
+		
 		
 
 	}
