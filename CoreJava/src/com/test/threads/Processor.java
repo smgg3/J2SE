@@ -15,6 +15,7 @@ public class Processor {
 						lock.wait();
 					}
 				list.add(val++);
+				System.out.println("add "+val);
 				lock.notify();
 				}
 			}
@@ -31,7 +32,7 @@ public class Processor {
 			System.out.println("Value is : "+val);
 			lock.notify();
 			}
-			Thread.sleep(random.nextInt(1000));
+			Thread.sleep(random.nextInt(5000));
 		}
 	}
 	
